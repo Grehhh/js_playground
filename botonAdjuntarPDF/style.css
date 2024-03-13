@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+}
+
+#btn_adjuntar_archivo {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#archivo_adjunto {
+    visibility: hidden;
+}

@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+.objetivo {
+    font-weight: bold;
+    color: green;
+}
+
+b {
+    color: blue;
+}
+
+strong {
+    color: red;
+}

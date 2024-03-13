@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
+#oculto {
+    display: none;
+}
+
+@media (min-width: 412px) {
+    #oculto {
+        display: block;
+    }
+}

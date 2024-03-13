@@ -1,0 +1,1 @@
+console.log($('.tres div:last-child').attr('class'))

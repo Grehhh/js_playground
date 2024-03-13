@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+/* ------------------- Boton copiar ----------------- */
+
+.radius {
+    border-radius: 57px 57px 57px 57px;
+    -moz-border-radius: 57px 57px 57px 57px;
+    -webkit-border-radius: 57px 57px 57px 57px;
+}
+
+.bg_gradient {
+    background: linear-gradient(45deg, #FF0047 25%, #FF8A00);
+}
+
+input:focus {
+    outline: none /* Removes the border when the input is clicked */
+}
+
+.btn_codigo {
+    margin-top: 20px;
+    color: white;
+    /* font-family: SantanderText_Bold; */
+    padding-left:15px;
+    padding-right: 20px;
+}
+
+.btn_codigo input {
+    font-size: 1.5em;
+    letter-spacing: 0.05em; 
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    /* para el autoresize */
+    min-width: 100px;
+    /* clean input default styles */
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn_codigo svg {
+    position: relative;
+    width: 25px;
+    top: 5px;
+}
